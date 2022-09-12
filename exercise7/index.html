@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+    <head>
+		<meta charset = "utf-8">
+    </head>
+    <body>
+        
+        <input id="name-input" type="text" placeholder="Enter your name" />
+        <button id="my-button">Click Me</button>
+
+    <script>
+        //first var myButton connects to the button click me
+        var myButton = document.querySelector('#my-button');
+        //second var nameInput connects to the input textbox
+        var nameInput = document.querySelector('#name-input');
+            //myButton.addEventListener waits for the button to be clicked than starts the if loop
+            myButton.addEventListener('click', function () {
+            //the loop is basically ouputs any word that is inputed into the textbox out as a alert notification with hello + that word/name
+            if (nameInput.value !== '') {
+            alert('Hello ' + nameInput.value);
+            }
+        });
+    </script>
+    </body>
