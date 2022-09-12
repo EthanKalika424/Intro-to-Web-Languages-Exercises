@@ -1,0 +1,13 @@
+body
+{
+font-family: Georgia, 'Times New Roman', Times, serif;
+background-color: aqua;
+}
+.main-title
+{
+    text-align: center;
+}
+.content
+{
+    margin-bottom: 12px;
+}
